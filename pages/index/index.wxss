@@ -1,0 +1,51 @@
+page {
+  background-color: #ccc;
+}
+
+.swiper image {
+  width: 100%;
+  height: 380rpx;
+}
+
+.grid {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 1rpx solid #ccc;
+  border-top: 1rpx solid #ccc;
+}
+
+.grid image {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.grid text {
+  margin-top: 20rpx;
+}
+
+.grid_item {
+  width: 250rpx;
+  height: 250rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+  box-sizing: border-box;
+}
+
+.link {
+  margin-top: 16rpx;
+  padding: 16rpx 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.link image {
+  width: 300rpx;
+  height: 200rpx;
+}
